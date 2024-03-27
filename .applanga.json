@@ -1,0 +1,28 @@
+{
+  "app": {
+    "access_token": "65e1aea1d948d30f63b10409!04fc683b53e9a26d865753cef26fcc96",
+    "base_language": "en",
+    "pull": {
+      "target": [
+        {
+          "exclude_languages": [
+            "en"
+          ],
+          "file_format": "xliff",
+          "path": "src/locale/messages.de.xliff",
+          "tag": "cli"
+        }
+      ]
+    },
+    "push": {
+      "source": [
+        {
+          "file_format": "xliff",
+          "language": "en",
+          "path": "src/locale/messages.xliff",
+          "tag": "cli"
+        }
+      ]
+    }
+  }
+}
